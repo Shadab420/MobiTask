@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <TextView
+        android:id="@+id/list_item_tv"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:textColor="#F8EBEC"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="shadab"/>
+
+    <Button
+        android:id="@+id/list_item_edit_btn"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_style"
+        android:text="Edit"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <Button
+        android:id="@+id/list_item_delete_btn"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_style"
+        android:text="Delete"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+</LinearLayout>
